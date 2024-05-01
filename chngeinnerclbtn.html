@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <title>Change inner HTML clicking button</title>
+    </head>
+    <body>
+        <div id="my_DIV">love is more,But..</div>
+        <button onclick="changeContent()">Click me</button>
+        <script>
+            function changeContent(){
+                //Get the reference to the element with id "myDiv"
+            var myDIV=document.getElementById("my_DIV");
+        //change the inner HTML
+            my_DIV.innerHTML="Life is short!"; }
+        </script>
+    </body>
+</html>
